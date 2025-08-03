@@ -56,6 +56,7 @@ function initInteractiveMaps() {
     if (container.closest('.map01-section')) groupNumber = '01';
     else if (container.closest('.map02-section')) groupNumber = '02';
     else if (container.closest('.map03-section')) groupNumber = '03';
+    else if (container.closest('.map04-section')) groupNumber = '04';
     
     // Navigation button functionality
     var navButtons = container.querySelectorAll('.map-nav-btn');
